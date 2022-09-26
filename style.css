@@ -5,6 +5,7 @@
 
 html, body {
     height: 100%;
+    overflow: auto;
   }
 
 .container{
@@ -16,10 +17,13 @@ html, body {
     background-color: #f5f4ef;
 }
 
+
+/* Title Section */
+
 .header{
     display: block;
     justify-content: start;
-    padding: 12px;
+    /* padding: 12px; */
     width: 40%;
     margin-top: 10px;
     /* margin-bottom: 5px; */
@@ -38,6 +42,7 @@ html, body {
     font-size: 18px;
 }
 
+/* Nav Bar */
 .nav-bar{
     background-color: black;
     border-radius: 5px;
@@ -66,6 +71,9 @@ html, body {
     background-color: #c74350;
     cursor: pointer;
 }
+
+
+/* Featured */
 
 .featured{
     background-color: #fff;
@@ -104,6 +112,9 @@ html, body {
     margin-top: 10px;
 }
 
+
+/* Dates Section */
+
 .dates-container{
     width:40%;
     display: block;
@@ -118,7 +129,7 @@ html, body {
     display: inline-flex;
     border-bottom: .5px dotted black;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .date:last-of-type{
@@ -146,6 +157,38 @@ html, body {
     font-weight: bold;
 }
 
+
+/* blogroll socials */
+
+.blogroll-social-container{
+    margin-top: 20px;
+    width: 43.4%;
+    
+}
+
+.blogroll{
+    width: 100%;
+    align-content: left;
+}
+.blogroll > table > tbody > tr > td, .blogroll > table > tbody > tr > th{
+    width: 25%;
+    text-align: start;
+    padding: 5px;
+}
+
+.blogroll > table > tbody > tr > td{
+    border-bottom: 1px solid white;
+    font-size: 13px;
+    
+}
+
+.blogroll > table{
+    border-spacing: 20px 0px;
+    width: 100%;
+    text-indent: 0;
+}
+
+/* Spans */
 .red-ul{
     color: #c74350;
     text-decoration: underline;
@@ -154,4 +197,8 @@ html, body {
 .dotted-ul{
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+
+.red{
+    color: #c74350;
 }
