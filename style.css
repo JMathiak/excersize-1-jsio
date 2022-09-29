@@ -105,14 +105,26 @@ html, body {
 
 .featured-subtext{
     font-size: 28px;
+    width: fit-content;
 }
+
 
 .featured-description{
     font-size: 16px;
     margin-top: 10px;
 }
 
+.featured > .featured-text > .featured-description > .red-ul:hover {
+    background-color: #c74350;
+    color: #fff;
+    cursor: pointer;
+}
 
+.featured-subtext:hover{
+    background-color: #c74350;
+    color: #fff;
+    cursor: pointer;
+}
 /* Dates Section */
 
 .dates-container{
@@ -157,7 +169,19 @@ html, body {
     font-weight: bold;
 }
 
+.date:hover{
+    background-color: #c74350;
+}
 
+.date:hover .date-author  .dotted-ul, .date:hover .date-title-para .date-para{
+    color: #fff;
+}
+
+
+.date:hover .date-author  .red-ul, .date:hover .date-title-para .date-title , .date:hover .date-title-para .red-ul {
+    color: #f6cf74;
+    cursor: pointer;
+}
 /* blogroll socials */
 
 .blogroll-social-container{
@@ -184,6 +208,12 @@ html, body {
     
 }
 
+.blogroll > table > tbody > tr > td:hover{
+    background-color: #c74350;
+    color: #fff;
+    cursor: pointer;
+}
+
 
 
 .blogroll > table{
@@ -208,6 +238,11 @@ html, body {
     margin-right: 25px;
 }
 
+.foot-label>.red-bold:hover{
+    cursor: pointer;
+    background-color: #c74350;
+    color: #fff;
+}
 .foot-img{
     margin-right: 20px;
 }
@@ -225,6 +260,11 @@ html, body {
     margin-bottom: 10px;
 }
 
+.active-date:hover .red-ul{
+    background-color: #c74350;
+    color: #fff;
+    cursor: pointer;
+}
 /* Spans */
 .red-ul{
     color: #c74350;
