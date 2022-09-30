@@ -260,7 +260,7 @@ html, body {
     margin-bottom: 10px;
 }
 
-.active-date:hover .red-ul{
+.active-date .red-ul:hover{
     background-color: #c74350;
     color: #fff;
     cursor: pointer;
