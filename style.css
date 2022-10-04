@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:Trebuchet MS, sans-serif;
 }
 
 html, body {
@@ -26,20 +27,18 @@ html, body {
     /* padding: 12px; */
     width: 40%;
     margin-top: 10px;
-    /* margin-bottom: 5px; */
-}
-
-.title-container{
     margin-bottom: 30px;
 }
+
+
 .title{
-    font-size:48px;
+    /* font-size:48px; */
     font-weight: bold;
 }
 
 .subtitle{
     font-weight: bold;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 /* Nav Bar */
@@ -51,6 +50,9 @@ html, body {
     margin-bottom: 17px;
 }
 
+.nav-bar > li{
+    display: inline;
+}
 .option{
     color:white;
     display: inline-block;
@@ -99,18 +101,18 @@ html, body {
 
 .featured-header{
     color: #c74350;
-    font-size: 36px;
+    /* font-size: 36px; */
     font-weight: bold;
 }
 
 .featured-subtext{
-    font-size: 28px;
+    /* font-size: 28px; */
     width: fit-content;
 }
 
 
 .featured-description{
-    font-size: 16px;
+    /* font-size: 16px; */
     margin-top: 10px;
 }
 
@@ -154,7 +156,7 @@ html, body {
     align-items: center;
     width: 30%;
     margin-right: 18px;
-    font-size: 14px;
+    /* font-size: 14px; */
     padding-top: 4px;
 }
 
@@ -165,9 +167,10 @@ html, body {
 
 .date-title{
     color: #c74350;
-    font-size: 20px;
-    font-weight: bold;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
 }
+
 
 .date:hover{
     background-color: #c74350;
@@ -204,7 +207,7 @@ html, body {
 
 .blogroll > table > tbody > tr > td{
     border-bottom: 1px solid white;
-    font-size: 13px;
+    /* font-size: 13px; */
     
 }
 
@@ -249,11 +252,11 @@ html, body {
 
 .foot-text{
     width: 75%;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 .active-date{
-    font-size: 12px;
+    /* font-size: 12px; */
     width: 40%;
     display: flex;
     justify-content: flex-end;
