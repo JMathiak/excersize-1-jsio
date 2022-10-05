@@ -115,6 +115,7 @@ html, body {
 .featured-description{
     font-size: smaller;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 .featured > .featured-text > .featured-description > .red-ul:hover {
@@ -160,6 +161,7 @@ html, body {
     /* font-size: 14px; */
     padding-top: 4px;
     font-size: smaller;
+    font-weight: bold;
 }
 
 .date-title-para{
@@ -260,6 +262,7 @@ html, body {
 .foot-text{
     width: 75%;
     font-size: smaller;
+    font-weight: bold;
 }
 
 .active-date{
@@ -268,6 +271,8 @@ html, body {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 10px;
+    font-size: smaller;
+    font-weight: bold;
 }
 
 .active-date .red-ul:hover{
