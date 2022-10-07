@@ -19,6 +19,7 @@ html, body {
 }
 
 
+
 /* Title Section */
 
 .header{
@@ -137,8 +138,8 @@ html, body {
     background-color: white;
     border-radius: 5px;
     padding: 12px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 .date{
@@ -156,8 +157,8 @@ html, body {
     display: block;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    margin-right: 18px;
+    width: 33%;
+    margin-right: 0px;
     /* font-size: 14px; */
     padding-top: 4px;
     font-size: smaller;
@@ -165,8 +166,9 @@ html, body {
 }
 
 .date-title-para{
-    margin-left: 18px;
+    margin-left: 65px;
     display: block;
+    margin-right: -7px;
 }
 
 .date-title{
@@ -216,8 +218,8 @@ html, body {
 
 .blogroll > table > tbody > tr > td{
     border-bottom: 1px solid white;
-    font-size: smaller;
-    
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .blogroll > table > tbody > tr > td:hover{
