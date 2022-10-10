@@ -1,24 +1,31 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
+    
 }
 
 html, body {
-    height: 100%;
-    overflow: auto;
+   
+    
     background-color: #f5f4ef;
   }
 
 .container{
+    height: 100vh;
     width:100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
-
+.container:after{
+    display: block;
+    clear: both;
+    content: "";
+    height: 0;
+    overflow: hidden;
+ }
 
 /* Title Section */
 
@@ -26,7 +33,7 @@ html, body {
     display: block;
     justify-content: start;
     /* padding: 12px; */
-    width: 40%;
+    width: 800px;
     margin-top: 10px;
     margin-bottom: 20px;
     box-sizing: border-box;
@@ -34,12 +41,12 @@ html, body {
 
 
 .title{
-    font-size: 36px;
+    font-size: 44px;
     font-weight: bold;
 }
 
 .subtitle{
-    font-weight: bold;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -48,8 +55,9 @@ html, body {
     background-color: black;
     border-radius: 5px;
     font-size: 0px;
-    width: 41.4%;
-    margin-bottom: 17px;
+    width: 800px;
+    /* height: 40px; */
+    margin-bottom: 35px;
     /* box-sizing: border-box; */
 }
 
@@ -65,6 +73,8 @@ html, body {
     padding-left: 15px;
     margin-right: 0;
     font-size: 18px;
+    /* height: 40px; */
+    box-sizing: border-box;
 }
 
 .option:first-of-type{
@@ -82,11 +92,13 @@ html, body {
 
 .featured{
     background-color: #fff;
-    width: 40%;
+    width: 800px;
+    height: 119px;
+    box-sizing: border-box;
     padding: 12px;
     border-radius: 5px;
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .featured-text{
@@ -134,13 +146,16 @@ html, body {
 /* Dates Section */
 
 .dates-container{
-    width:40%;
+    width:800px;
+    height: 300px;
+    box-sizing: border-box;
     display: block;
     background-color: white;
     border-radius: 5px;
     padding: 12px;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .date{
@@ -170,7 +185,7 @@ html, body {
 .date-title-para{
     margin-left: 65px;
     display: block;
-    margin-right: -7px;
+    
 }
 
 .date-title{
@@ -201,9 +216,11 @@ html, body {
 /* blogroll socials */
 
 .blogroll-social-container{
-    margin-top: 20px;
-    width: 43.4%;
-    margin-bottom: 25px;
+    
+    width: 800px;
+    height: 162px;
+    box-sizing: border-box;
+    border: 1px solid black;
     
 }
 
@@ -242,13 +259,16 @@ html, body {
 
 
 .footnote{
-    width: 40%;
+    width: 800px;
+    height: 72px;
+    box-sizing: border-box;
     background-color: white ;
     padding: 12px;
     border-radius: 5px;
     display: flex;
     margin-bottom: 10px;
     min-width: 0;
+    margin-top: 40px;
 }
 
 .foot-label{
@@ -305,3 +325,18 @@ html, body {
     color: #c74350;
     font-weight: bold;
 }
+
+
+/*
+My window is ~10.86% wider and 27.76% shorter
+width: 800px
+between featured and dates: 30px
+between navbar + featured: 34/35px
+between dates + blogroll: 35px;
+between blogroll + footer: 45px;
+
+Juan Dimensions:
+Featured: 800 x 165 ==> 800 x 119
+Dates: 800 x 415 ==> 800 x 300
+Footnote: 800 x 100
+*/
