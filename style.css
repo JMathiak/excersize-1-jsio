@@ -33,7 +33,7 @@ html, body {
     display: block;
     justify-content: start;
     /* padding: 12px; */
-    width: 800px;
+    width: 886.88px;
     margin-top: 10px;
     margin-bottom: 20px;
     box-sizing: border-box;
@@ -55,36 +55,42 @@ html, body {
     background-color: black;
     border-radius: 5px;
     font-size: 0px;
-    width: 800px;
-    /* height: 40px; */
-    margin-bottom: 35px;
-    /* box-sizing: border-box; */
+    width: 886.88px;
+    height: 28.9px;
+    margin-bottom: 25.3px;
+    padding-bottom: 5px;
+
 }
 
 .nav-bar > li{
     display: inline;
+    
 }
 .option{
     color:white;
     display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: 0;
     font-size: 18px;
-    /* height: 40px; */
-    box-sizing: border-box;
+    height: 28.9px;
+    /* box-sizing: border-box; */
+    vertical-align: middle;
+    
 }
 
 .option:first-of-type{
     background-color: #c74350;
     border-start-start-radius: 5px;
     border-end-start-radius: 5px;
+    height: 28.9px;
 }
 .option:hover{
     background-color: #c74350;
     cursor: pointer;
+    height: 28.9px;
 }
 
 
@@ -92,13 +98,15 @@ html, body {
 
 .featured{
     background-color: #fff;
-    width: 800px;
-    height: 119px;
+    width: 886.88px;
+    height: 119.2px;
     box-sizing: border-box;
     padding: 12px;
     border-radius: 5px;
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 21.67px;
+    padding-top: 21.67px;
+    padding-bottom: 18.06px;
 }
 
 .featured-text{
@@ -146,16 +154,16 @@ html, body {
 /* Dates Section */
 
 .dates-container{
-    width:800px;
+    width: 886.88px;
     height: 300px;
     box-sizing: border-box;
     display: block;
     background-color: white;
     border-radius: 5px;
     padding: 12px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-bottom: 30px;
+    padding-top: 28.9px;
+    padding-bottom: 28.9px;
+    margin-bottom: 21.7px;
 }
 
 .date{
@@ -202,6 +210,7 @@ html, body {
 
 .date:hover{
     background-color: #c74350;
+    
 }
 
 .date:hover .date-author  .dotted-ul, .date:hover .date-title-para .date-para{
@@ -217,7 +226,7 @@ html, body {
 
 .blogroll-social-container{
     
-    width: 800px;
+    width: 886.88px;
     height: 162px;
     box-sizing: border-box;
     border: 1px solid black;
@@ -259,7 +268,7 @@ html, body {
 
 
 .footnote{
-    width: 800px;
+    width: 886.88px;
     height: 72px;
     box-sizing: border-box;
     background-color: white ;
@@ -293,7 +302,7 @@ html, body {
 
 .active-date{
     /* font-size: 12px; */
-    width: 40%;
+    width: 886.88px;
     display: flex;
     justify-content: flex-end;
     margin-bottom: 10px;
