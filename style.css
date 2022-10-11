@@ -350,6 +350,9 @@ html, body {
     margin-right: 3px;
 }
 
+address{
+    font-style: normal;
+}
 /*
 My window is ~10.86% wider and 27.76% shorter
 width: 800px
