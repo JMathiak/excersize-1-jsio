@@ -221,7 +221,7 @@ html, body {
     width: 800px;
     /* height: 162px; */
     box-sizing: border-box;
-    
+    font-weight: bold;
     margin-bottom: 45px;
     display: flex;
 }
