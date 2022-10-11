@@ -17,7 +17,6 @@ html, body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
 }
 
 
@@ -155,12 +154,17 @@ html, body {
 .date{
     display: inline-flex;
     border-bottom: .5px dotted black;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    /* padding-top: 10px; */
+    padding-bottom: 15px; 
 }
 
 .date:last-of-type{
     border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.date:nth-of-type(2), .date:nth-of-type(3){
+    padding-top: 15px;
 }
 
 .date-author{
@@ -223,6 +227,7 @@ html, body {
     display: block;
     margin-right: 10px;
     width: 25%;
+    font-size: smaller;
 }
 
 .blogroll{
@@ -233,26 +238,17 @@ html, body {
     
 }
 
+.blogroll-label{
+    display:block;
+}
 .blogroll-entry{
     border-bottom:1px solid white;
+    padding: 5px;
     
 }
-.blogroll > table{
-    box-sizing: border-box;
-}
-.blogroll > table > tbody > tr > td, .blogroll > table > tbody > tr > th{
-    width: 25%;
-    text-align: start;
-    padding: 5px;
-}
 
-.blogroll > table > tbody > tr > td{
-    border-bottom: 1px solid white;
-    font-size: 12px;
-    font-weight: bold;
-}
 
-.blogroll > table > tbody > tr > td:hover{
+.blogroll-entry:hover{
     background-color: #c74350;
     color: #fff;
     cursor: pointer;
@@ -260,12 +256,18 @@ html, body {
 
 
 
-.blogroll > table{
-    border-spacing: 20px 0px;
-    width: 100%;
-    text-indent: 0;
+.blogroll-column:nth-of-type(2), .blogroll-column:nth-of-type(3){
+    padding-top: 18px;
 }
 
+.blogroll-column:nth-of-type(1) .blogroll-entry, .blogroll-column:nth-of-type(2) .blogroll-entry, .blogroll-column:nth-of-type(3) .blogroll-entry{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.blogroll-entry img{
+    margin-right: 3px;
+}
 /* FootNote */
 
 
@@ -279,7 +281,7 @@ html, body {
     display: flex;
     margin-bottom: 10px;
     min-width: 0;
-    margin-top: 40px;
+
 }
 
 .foot-label{
@@ -311,6 +313,7 @@ html, body {
     font-size: smaller;
     font-weight: bold;
     box-sizing: border-box;
+    padding-bottom: 10px;
 }
 
 .active-date .red-ul:hover{
