@@ -34,7 +34,7 @@ box-sizing: border-box;
     justify-content: start;
     /* padding: 12px; */
     width: 800px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 20px;
     box-sizing: border-box;
 }
@@ -292,7 +292,7 @@ box-sizing: border-box;
     padding: 25px;
     border-radius: 5px;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     min-width: 0;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -325,7 +325,7 @@ box-sizing: border-box;
     width: 800px;
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-size: smaller;
     font-weight: bold;
     box-sizing: border-box;
