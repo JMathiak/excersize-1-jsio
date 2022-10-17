@@ -117,12 +117,13 @@ box-sizing: border-box;
 
 .featured-header{
     color: #c74350;
-    /* font-size: 36px; */
+    font-size: 24px;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .featured-subtext{
-    /* font-size: 28px; */
+    font-size: 16px;
     width: fit-content;
 }
 
@@ -196,7 +197,7 @@ box-sizing: border-box;
 
 .date-title{
     color: #c74350;
-    /* font-size: 20px; */
+    font-size: 20px;
     /* font-weight: bold; */
 }
 
@@ -251,6 +252,7 @@ box-sizing: border-box;
 .blogroll-label{
     display:block;
     padding: 5px;
+    font-size: 18px;
 }
 .blogroll-entry{
     border-bottom:1px solid white;
@@ -268,7 +270,7 @@ box-sizing: border-box;
 
 
 .blogroll-column:nth-of-type(2), .blogroll-column:nth-of-type(3){
-    padding-top: 28px;
+    padding-top: 31px;
 }
 
 .blogroll-column:nth-of-type(1) .blogroll-entry, .blogroll-column:nth-of-type(2) .blogroll-entry, .blogroll-column:nth-of-type(3) .blogroll-entry{
@@ -300,6 +302,7 @@ box-sizing: border-box;
 .foot-label{
     width: 25%;
     margin-right: 25px;
+    font-size: 18px;
 }
 
 .foot-label>.red-bold:hover{
