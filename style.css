@@ -7,17 +7,23 @@
 
 html, body {
    
-    height: 100vh;
-    background-color: #f5f4ef;
+height: 100vh;
+background-color: #f5f4ef;
   }
 
 .container{
    
-    width:100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    box-sizing: border-box;
+width:100%;
+   
+display: flex;
+   
+align-items: center;
+   
+flex-direction: column;
+   
+box-sizing: border-box;
+   
+/* height: 100vh; */
 }
 
 
@@ -35,7 +41,7 @@ html, body {
 
 
 .title{
-    font-size: 44px;
+    font-size: 48px;
     font-weight: bold;
 }
 
