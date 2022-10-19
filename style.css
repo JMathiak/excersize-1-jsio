@@ -260,18 +260,7 @@ box-sizing: border-box;
     padding: 5px;
     font-size: 18px;
 }
-.blogroll-entry{
-    border-bottom:1px solid white;
-    padding: 5px;
-    
-}
 
-
-.blogroll-entry:hover{
-    background-color: #c74350;
-    color: #fff;
-    cursor: pointer;
-}
 
 .blogroll-column  a{
     display: block;
