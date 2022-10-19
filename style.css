@@ -10,7 +10,7 @@ html, body {
 height: 100vh;
 background-color: #f5f4ef;
   }
-  
+
   a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
@@ -160,7 +160,7 @@ box-sizing: border-box;
     background-color: white;
     border-radius: 5px;
     padding: 20px;
-    padding-top: 45px;
+    padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 35px;
 }
@@ -168,7 +168,7 @@ box-sizing: border-box;
 .date{
     display: inline-flex;
     border-bottom: .5px dotted black;
-    /* padding-top: 10px; */
+    padding-top:15px;
     padding-bottom: 15px; 
 }
 
@@ -177,9 +177,6 @@ box-sizing: border-box;
    
 }
 
-.date:nth-of-type(2), .date:nth-of-type(3){
-    padding-top: 15px;
-}
 
 .date-author{
     display: block;
@@ -214,6 +211,10 @@ box-sizing: border-box;
 
 .date:hover{
     background-color: #c74350;
+}
+
+.date:first-of-type:hover{
+    
 }
 
 .date:hover .date-author  .dotted-ul, .date:hover .date-title-para .date-para{
