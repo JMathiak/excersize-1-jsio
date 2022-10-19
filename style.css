@@ -213,9 +213,6 @@ box-sizing: border-box;
     background-color: #c74350;
 }
 
-.date:first-of-type:hover{
-    
-}
 
 .date:hover .date-author  .dotted-ul, .date:hover .date-title-para .date-para{
     color: #fff;
